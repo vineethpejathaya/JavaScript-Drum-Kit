@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
 
+    <!--Fav icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    
+    <!-- Style sheet for body-->
+    <link rel="stylesheet" href="/Style.css"/>
+
+    <!-- Style sheet for fonts-->
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css"/>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Drum <i class="fas fa-drum"></i> Kit</h1>
+        <div class="List-container">
+            <ul class="List">
+                <li class="Key"KeyBoard="65">A
+                    <br>
+                    <span>Boom</span>
+                </li>
+                <li class="Key" KeyBoard="83">S
+                    <br>
+                    <span>Clap</span>
+                </li>
+                <li class="Key"KeyBoard="68">D
+                    <br>
+                    <span>HiHat</span>
+                </li>
+                <li class="Key"KeyBoard="74">J
+                    <br>
+                    <span>Kick</span>
+                </li>
+                <li class="Key"KeyBoard="75">K
+                    <br>
+                    <span>OpenHat</span>
+                </li>
+                <li class="Key"KeyBoard="76">L
+                    <br>
+                    <span>Ride</span>
+                </li>
+                <li class="Key"KeyBoard="86">V
+                    <br>
+                    <span>Snare</span>
+                </li>
+                <li class="Key"KeyBoard="66">B
+                    <br>
+                    <span>Tink</span>
+                </li>
+                <li class="Key"KeyBoard="84">T
+                    <br>
+                    <span>Tom</span>
+                </li>
+            </ul>
+        </div>
+        <h4>Click on the mentioned keys to generate sound and try the combination</h4>
+    </div>
+
+    <audio keyBoard="A" KeyCode="65" src="01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+    <audio keyBoard="S" KeyCode="83"src="01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+    <audio keyBoard="D" KeyCode="68"src="01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+    <audio keyBoard="J" KeyCode="74"src="01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+    <audio keyBoard="K" KeyCode="75"src="01 - JavaScript Drum Kit_sounds_openhat.wav"></audio>
+    <audio keyBoard="L" KeyCode="76"src="01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+    <audio keyBoard="V" KeyCode="86"src="01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+    <audio keyBoard="B" KeyCode="66"src="01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
+    <audio keyBoard="T" KeyCode="84"src="01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
+
+    
+<script src="Script.js"></script>
+</body>
+
+</html>
